@@ -23,7 +23,7 @@
     "declarationMap": true,
     "baseUrl": ".",
     "paths": {
-      "shared": [
+      "@jbs/shared": [
         "src/component/index.ts"
       ]
     },

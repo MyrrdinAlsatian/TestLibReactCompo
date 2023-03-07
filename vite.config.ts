@@ -23,9 +23,9 @@ export default defineConfig(configEnv => ({
     build: {
         lib: {
             entry: resolve('src', 'components/index.ts'),
-            name: 'shared',
+            name: '@jbs/shared',
             formats: ['es', 'umd'],
-            fileName: format => `shared.${format}.js`,
+            fileName: format => `@jbs/shared.${format}.js`,
         },
         rollupOptions: {
             external: [...Object.keys(packageJson.peerDependencies)],
