@@ -1,5 +1,5 @@
 {
-    "name": "Shared",
+    "name": "@jbs/shared",
     "private": true,
     "version": "0.0.0",
     "type": "module",
@@ -26,6 +26,7 @@
     "module": "./dist/shared.es.js",
     "types": "./dist/index.d.ts",
     "dependencies": {
+        "global": "^4.4.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0"
     },
@@ -70,4 +71,3 @@
     },
     "license": "MIT"
 }
-
