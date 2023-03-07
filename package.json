@@ -1,7 +1,7 @@
 {
     "name": "@jbs/shared",
-    "private": true,
-    "version": "0.0.0",
+    "private": false,
+    "version": "0.0.4",
     "type": "module",
     "scripts": {
         "dev": "vite",
@@ -19,8 +19,7 @@
         ".": {
             "import": "./dist/shared.es.js",
             "require": "./dist/shared.umd.js"
-        },
-        "./dist/style.css": "./dist/style.css"
+        }
     },
     "main": "./dist/shared.umd.js",
     "module": "./dist/shared.es.js",
@@ -69,5 +68,16 @@
         "react": "16.8.0 || >=17.x",
         "react-dom": "16.8.0 || >=17.x"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MyrrdinAlsatian/TestLibReactCompo"
+    },
+    "keywords": [],
+    "author": "jbs",
+    "bugs": {
+        "url": "https://github.com/MyrrdinAlsatian/TestLibReactCompo/issues"
+    },
+    "homepage": "https://github.com/MyrrdinAlsatian/TestLibReactCompo#readme",
     "license": "MIT"
 }
+
